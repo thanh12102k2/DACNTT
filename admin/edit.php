@@ -20,7 +20,7 @@ require_once('database/dbhelper.php');
 
 <head>
     <title>Thêm Sản Phẩm</title>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Latest compiled and minified CSS -->
@@ -70,7 +70,6 @@ require_once('database/dbhelper.php');
                                 <td width="250px">Địa chỉ</td>
                                 <td>Số điện thoại</td>
                                 <td>Trạng thái</td>
-                                <!-- <td width="50px">Lưu</td> -->
                             </tr>
                         </thead>
                         <tbody>
@@ -100,9 +99,6 @@ require_once('database/dbhelper.php');
                                                     <option value="Đã hủy">Đã hủy</option>
                                                 </select>
                                             </td>
-                                            <td width="100px">
-                                                <button class="btn btn-success">Lưu</button>
-                                            </td>
                                         </tr>
                                     ';
                                     $order_id = $item['order_id'];
@@ -113,7 +109,14 @@ require_once('database/dbhelper.php');
                             ?>
                         </tbody>
                     </table>
-                    <a href="dashboard.php" class="btn btn-warning">Back</a>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="dashboard.php" class="btn btn-warning">Back</a>
+                        </div>
+                        <div class="col-md-6 text-right">
+                            <button class="btn btn-success">Lưu</button>
+                        </div>
+                    </div>
                 </form>
                 <?php
                 if ($_SERVER['REQUEST_METHOD'] == "POST") {
@@ -137,6 +140,10 @@ require_once('database/dbhelper.php');
 
     .red {
         color: red;
+    }
+
+    .text-right {
+    text-align: right;
     }
 </style>
 

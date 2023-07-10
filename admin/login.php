@@ -58,7 +58,7 @@
     <a href="#" class="dnthave">Don't have an account? Sign up</a>
   </div>
   <div class="footer">
-    <span>Made with Admin<i class="fa fa-heart pulse"></i> <a >
+    <span>Made with Nguyen Tien Thanh <i class="fa fa-heart pulse"></i> <a >
 
 
 
@@ -215,7 +215,7 @@ label span {
 
 .rmb {
   position: absolute;
-  margin-left: -24%;
+  margin-left: -36%;
   margin-top: 0px;
   color: #dfdeee;
   font-size: 13px;
