@@ -173,6 +173,7 @@
     .login:hover {
     box-shadow: 0px 0px 3px 0px grey;
     cursor: pointer;
+    
     }
     .login a {
     padding: 15px;
@@ -189,7 +190,7 @@
     top: 2.3rem;
     left: 0px;
     z-index: 10;
-    width: 150%;
+    width: 260%;
     border: 1px solid grey;
     border-radius: 5px;
     padding: 10px 0;

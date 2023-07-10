@@ -6,10 +6,10 @@ include('config.php');
 <footer class="section-p1"><!--mục footer -->
     <div class="col">
         <h4>HỆ THỐNG CỬA HÀNG</h4><!--Hệ thông cửa hàng -->
-        <p>Quận 10 - 561 Sư Vạn Hạnh, Phường 13.</p>
+        <p>Quận Hoàng Mai - Nghiêm Xuân Yêm, Phường Đại Kim.</p>
         <p>Quận Tân Bình - 136 Nguyễn Hồng Đào, Phường 14.</p>
         <p>Quận Gò Vấp - 41 Quang Trung, Phường 3.</p>
-        <p>Đống Đa - 49-51 Hồ Đắc Di, Phường Nam Đồng.</p>
+        <p>Quận Đống Đa - 49-51 Hồ Đắc Di, Phường Nam Đồng.</p>
     </div> 
     <div class="col">
         <h4>THÔNG TIN LIÊN HỆ</h4><!--Thông tin liên hệ -->
@@ -20,9 +20,9 @@ include('config.php');
     </div>
     <div class="col">
         <h4>FOLLOW US ON SOCIAL MEDIA</h4><!--Follow us on social media-->
-        <li><i class="fa fa-facebook"></i></li>
-        <li><i class="fa fa-instagram"></i></li>
-        <li><i class="fa fa-youtube"></i></li>            
+        <li><i class="fa fa-facebook"></i> <a href ="https://www.facebook.com/Thanh.121O/">  Facebook </a> </li>
+        <li><i class="fa fa-instagram"></i> <a href ="https://www.instagram.com/_thanh12.1o/">  Instagram </a> </li>
+        <li><i class="fa fa-youtube"></i> <a href ="https://www.youtube.com/@ThanhNguyen-rw3it">  Youtube </a> </li>            
     </div>    
 </footer>
 <style>
@@ -64,9 +64,8 @@ footer li{ /*chỉnh icon fb,instagram,youtube*/
     color:#fff;
     margin-top: 3px;
     font-weight: bold;
-    
-   
 }
+
 
 </style>
 
